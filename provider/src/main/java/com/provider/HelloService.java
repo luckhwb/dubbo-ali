@@ -11,6 +11,6 @@ public class HelloService implements Hello {
 
     @Override
     public String say() {
-        return "Hello Dubbo ..";
+        return "{\"age\":18,\"name\":\"boos hwb..\",\"uid\":1}";
     }
 }
