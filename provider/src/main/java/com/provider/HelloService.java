@@ -13,4 +13,9 @@ public class HelloService implements Hello {
     public String say() {
         return "{\"age\":18,\"name\":\"boos hwb..\",\"uid\":1}";
     }
+
+    @Override
+    public String run() {
+        return "I run fast..";
+    }
 }

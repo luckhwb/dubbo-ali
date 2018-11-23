@@ -21,4 +21,10 @@ public class HelloDubble {
         return s;
     }
 
+    @RequestMapping("/")
+    @ResponseBody
+    public String runHello() {
+        return demoService.run();
+    }
+
 }

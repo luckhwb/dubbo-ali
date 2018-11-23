@@ -11,7 +11,7 @@
     <!-- 连接注册中心配置 -->
     <dubbo:registry address="zookeeper://localhost:2181" protocol="zookeeper" check="false"/>
     <!-- 生成远程服务代理，可以和本地bean一样使用demoService -->
-    <dubbo:reference id="helloService" interface="com.api.Hello"/>
+    <dubbo:reference id="helloService" interface="com.api.Hello" group="test" version="0.0.1"/>
     <!-- 不检查服务提供者provider是否启动-->
     <dubbo:consumer check="false"/>
 </beans>

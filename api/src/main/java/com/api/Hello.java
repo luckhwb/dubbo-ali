@@ -5,4 +5,5 @@ package com.api;
  */
 public interface Hello {
     String say();
+    String run();
 }
