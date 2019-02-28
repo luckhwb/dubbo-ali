@@ -4,8 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
       <module fileurl="file://$PROJECT_DIR$/consumer/consumer.iml" filepath="$PROJECT_DIR$/consumer/consumer.iml" />
+      <module fileurl="file://D:\newfile\dubbo-ali\consumer\consumer.iml" filepath="D:\newfile\dubbo-ali\consumer\consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-luck.iml" filepath="$PROJECT_DIR$/dubbo-luck.iml" />
       <module fileurl="file://$PROJECT_DIR$/provider/provider.iml" filepath="$PROJECT_DIR$/provider/provider.iml" />
+      <module fileurl="file://D:\newfile\dubbo-ali\provider\provider.iml" filepath="D:\newfile\dubbo-ali\provider\provider.iml" />
     </modules>
   </component>
 </project>
